@@ -1,7 +1,8 @@
-class GoFish extends Fish {
+class BiteFish extends Fish {
 
   constructor(options) {
     super(options);
+    this.imageUri = '/images/bite-fish.gif'; // Set the image
     this.surgeSecondsLeft = 0;
     this.maxSurge = 1.0;
     this.surgMult = 3.0;
